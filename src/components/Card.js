@@ -122,16 +122,17 @@ const AVATAR_SIZE = width / 3;
 
 const styles = StyleSheet.create({
   cardWrapper: {
-    height: '70%',
+    height: '100%',
     width: '100%',
     backgroundColor: '#f9f9f9',
     borderRadius: 5,
     overflow: 'hidden',
   },
   shadowWrapper: {
-    margin: 10,
-    flex: 1,
-    elevation: 2,
+    height: '70%',
+    width: '100%',
+    elevation: 5,
+    backgroundColor: 'white',
     shadowColor: 'black',
     shadowOffset: {
       width: 0,
